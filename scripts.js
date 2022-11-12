@@ -15,7 +15,12 @@ const liElements = alltasks.map((elem)=> {
 
   const li = document.createElement('li');
   li.classList.add('list-group-item');
-  li.append(elem.task);
+  const button = document.createElement('button');
+  button.classList.add('btn', 'btn-success');
+  button.innerText = 'DELETE';
+
+
+  li.append(button, elem.task);
   console.log('li', li);
   return li
 
