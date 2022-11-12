@@ -5,7 +5,12 @@ const tasks = [
 {task: 'do me'},
 
 ];
-console.log('scripts working');
+
+
+function addNewTask(){
+
+  
+}
 
 
 
