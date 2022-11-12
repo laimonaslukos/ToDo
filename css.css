@@ -1,0 +1,11 @@
+.container{
+  width: 50%;
+  margin: 15px;
+}
+.btn{
+  margin: 5px;
+}
+.title{
+  margin: 5px;
+  text-align: center;
+}
