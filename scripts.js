@@ -8,8 +8,8 @@ const tasks = [
 
 
 function addNewTask(){
+document.getElementById('task-input');
 
-  
 }
 
 
